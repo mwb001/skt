@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #efeeeb;
+}
+
+/*box*/
+.box{
+	width: 850px;
+	background: lightgray;
+	margin: 60px auto;
+	border-radius: 10px;
+}
+.box img{
+	display: block;
+	width:210px;
+	height: 83px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.box p{
+	text-align: center;
+}
+.box p a{
+	font-size: 20px;
+	line-height: 20px;
+	padding-top: 25px;
+	color: #333333;
+}
+.box p .foucs{
+	color: #e8380d;
+}
+
+
+.box .forms{
+	width: 368px;
+	margin: 0 auto;
+}
+
+
+.box .forms .login_nby{
+	width: 368px;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
+}
+.box .forms .login_nby input{
+	width: 358px;
+	height: 48px;
+	outline: none;
+	margin-bottom: 20px;
+	border: 1px solid #e0e4e7;
+	text-indent: 10px;
+}
+.box .forms .Sin{
+	background: #e8380d;
+	font-size: 18px;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.box .forms .login_phone{
+	width: 368px;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
+	display: none;
+	
+}
+.box .forms .login_phone p{
+	width: 360px;
+	height: 48px;
+	margin-bottom: 20px;
+}
+.box .forms .login_phone input{
+	width: 358px;
+	height: 48px;
+	outline: none;
+	border: 1px solid #e0e4e7;
+	text-indent: 10px;
+	margin: 0 auto;
+}
+.box .forms .login_phone p:nth-child(2) input{
+	width: 240px;
+	height: 48px;
+	float: left;
+	margin-right: 10px;
+}
+.box .forms .login_phone p:nth-child(2) em{
+	display: block;
+	width: 97px;
+	height: 48px;
+	border: 1px solid #1e247c;
+	float: right;
+	margin-right: 5px;
+	background: white;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+	cursor: pointer;
+	padding-right: 4px;
+}
+.box .forms .login_phone .si_input{
+	width: 360px;
+	height: 48px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	position: relative;
+	margin-left: -1px;
+}
+.box .forms .login_phone .si_input input:first-child{
+	border-right: none;
+}
+.box .forms .login_phone .si_input input:nth-child(2){
+	width: 98px;
+	height: 50px;
+	margin-bottom: 20px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	text-align: center;
+	cursor: pointer;
+	background: white;
+}
+
+.box .pa{
+	padding-left: 198px;
+	padding-top: 20px;
+}
+.box .pa span{
+	color: #d5d5dc;
+}
+.box .pa a{
+	font-size: 16px;
+	color: #e8380d;
+}
+.box .pa a:nth-child(3){
+	color: #333333;
+}
+
+.box .pa a:hover{
+	text-decoration: underline;
+}
+
+
+.box .logP{
+	height: 50px;
+	font-size: 16px;
+	color: #666666;
+	padding-left: 249px;
+	padding-top: 15px;
+	display: flex;
+	align-items: center;
+}
+.box .logP a{
+	display: block;
+	height: 50px;
+	padding-top: 34px;
+	padding-left: 10px;
+}
+.box .logP .iconfont{
+	font-size: 30px;
+	padding-top: 10px;
+	color: #979797;
+}
+.box .logP .icon-share-:hover{
+	color: #00a31e;
+}
+.box .logP .icon-zfb:hover{
+	color: #00a0e9;
+}
+.box .logP .icon-wb1:hover{
+	color: #dc2c22;
+}
+.box .logP .icon-QQ:hover{
+	color: #00a0e9;
+}
+
+.spans{
+ 	font-size: 12px;
+	color: #d3ced7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.spans a{
+	font-size: 12px;
+	color: #d3ced7;
+}
+.spans a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.spans img{
+	display: block;
+	width: 13px;
+	height: 15px;
+}

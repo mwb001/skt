@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+
+section{
+	width: 100%;
+	height: 1000px;
+}
+
+body{
+	background: white;
+}
+#section{
+	width: 1300px;
+	height: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#section .program{
+	width: 1240px;
+	height: 70px;
+	margin: 65px 30px;
+	background: url(../img/bg_payorder_1.png)  no-repeat;
+	
+}
+#section .cart{
+	width: 1300px;
+	height: 700px;
+}
+#section .cart .tab{
+	width: 1300px;
+	border-collapse: collapse;
+	border: 1px solid #eef0ef;
+	font-size: 14px;
+	color: #8b898a;
+}
+#section .cart .tab tr:nth-child(1){
+	border-bottom: 1px solid #eef0ef;
+}
+#section .cart .tab th{
+	height: 52px;
+	background: #f7f9f8;
+}
+
+#section .cart .tab th,#section .cart .tab td{
+	border: 1px solid #eef0ef;
+	text-align: center;
+}
+#section .cart .tab .trs{
+	height: 120px;
+}
+#section .cart .tab .trs .goods{
+	text-align: left;
+	margin-left: 70px;
+	display: flex; align-items: center;
+}
+#section .cart .tab .trs .goods img{
+	width: 72px;
+	height: 72px;
+}
+#section .cart .tab .trs .goods span{
+	margin-left: 20px; color: black;
+}
+#section .cart .tab .trs td:nth-child(3) a{
+	display: inline-block;
+	width: 27px;
+	height: 25px;
+	border: 1px solid #dbdbdb;
+	text-align: center;
+	line-height: 25px;
+	color: #656565;
+	vertical-align: middle;
+	background: white;
+}
+#section .cart .tab .trs td:nth-child(3) .expect{
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+#section .cart .tab .trs td:nth-child(3) .add{
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+#section .cart .tab .trs td:nth-child(3) input{
+	width: 48px;
+	height: 25px;
+	border: 1px solid #dbdbdb;
+	border-left: 0;
+	border-right: 0;
+	text-align: center;
+	outline: none;
+	vertical-align: middle;
+	margin-left: -4px;
+	margin-right: -4px;
+}
+#section .cart .tab .trs .delete{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	color: #838385;
+}
+#section .cart .tab .tr_last_two{
+	height: 192px;
+}
+#section .cart .tab .tr_last_two td:nth-child(1){
+	padding: 20px; text-align: left;
+}
+#section .cart .tab .tr_last_two td:nth-child(1) p{
+	line-height: 44px; display: flex; align-items: center; color: #787679;
+}
+#section .cart .tab .tr_last_two td:nth-child(1) p input{
+	width: 20px; height:20px; outline: none;
+}
+#section .cart .tab .tr_last_two td:nth-child(1) p label{
+	margin-left: 10px;
+}
+#section .cart .tab .tr_last_two td:nth-child(2){
+	text-align: right;
+	padding-right: 10px;
+}
+#section .cart .tab .tr_last_two td:nth-child(3){
+	text-align: left;
+	padding-left: 10px;
+	color: #9f2c27;
+}
+#section .cart .tab .tr_last{
+	height: 70px;
+	font-size: 16px;
+}
+#section .cart .tab .tr_last a{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 25px;
+	margin: 25px;
+}
+#section .cart .tab .tr_last a:nth-child(1){
+	border: 1px solid #945745;
+	background: white;
+	color: #9e7b77;
+}
+#section .cart .tab .tr_last a:nth-child(2){
+	border: 1px solid #c64424;
+	background: #e8380f;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

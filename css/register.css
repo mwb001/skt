@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #efeeeb;
+}
+
+.box{
+	width: 850px;
+	height: 600px;
+	background: lightgray;
+	margin: 60px auto;
+	border-radius: 10px;
+}
+.box img{
+	display: block;
+	width:210px;
+	height: 83px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.box .login_phone{
+	width: 850px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.box .login_phone p{
+	width: 358px;
+	height: 48px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.box .login_phone p input{
+	width: 358px;
+	height: 48px;
+	outline: none;
+	border: 1px solid #e0e4e7;
+	text-indent: 10px;
+}
+.box .login_phone .yzm{
+	height: 56px;
+}
+.box .login_phone .yzm input{
+	width: 233px;
+	height: 56px;
+}
+.box .login_phone .yzm em{
+	display: inline-block;
+	width: 116px;
+	height: 56px;
+	border: 1px solid #1e247c;
+	background: white;
+	text-align: center;
+	line-height: 48px;
+	font-size: 20px;
+}
+.box .login_phone .phone_yzm{
+	margin: 20px auto 0;
+	position: relative;
+}
+.box .login_phone .phone_yzm input:first-child{
+	border-right: none;
+}
+.box .login_phone .phone_yzm input:nth-child(2){
+	width: 98px;
+	height: 49px;
+	margin-bottom: 20px;
+	position: absolute;
+	right: -1px;
+	top: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+.box .login_phone .read_agree{
+	height: 25px;
+	font-size: 12px;
+	color: #666666;
+	line-height: 12px;
+	text-indent: 8px;
+	display: flex;
+	align-items: center;
+}
+.box .login_phone .read_agree input{
+	width: 15px;
+	height: 15px;
+}
+.box .login_phone .read_agree a{
+	color: #e8380d;
+}
+.box .login_phone .tj input{
+	background: #e8380d;
+	font-size: 18px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 20px;
+}
+.box .pa{
+	padding-left: 460px;
+	padding-top: 20px;
+}
+
+.box .pa a{
+	font-size: 16px;
+	color: #e8380d;
+}
+.box .pa a:nth-child(3){
+	color: #333333;
+}
+
+.box .pa a:hover{
+	text-decoration: underline;
+}
+
+.spans{
+ 	font-size: 12px;
+	color: #d3ced7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.spans a{
+	font-size: 12px;
+	color: #d3ced7;
+}
+.spans a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.spans img{
+	display: block;
+	width: 13px;
+	height: 15px;
+}
