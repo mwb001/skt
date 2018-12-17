@@ -68,7 +68,20 @@
 				<li><a href="javascript:void(0)">nubia UI</a></li>
 			</ul>
 			<div class="hea_R">
-				<a href="javascript:void(0)"><i class="iconfont icon-personalicon"></i></a>
+				<a href="#">
+					<i class="iconfont icon-personalicon"></i>
+					<ul class="uls">
+						<li>我的购物车</li>
+						<li>个人中心</li>
+						<li>我的订单</li>
+						<li>我的优惠券</li>
+						<li>我的收藏</li>	
+						<li>我的预约</li>
+						<li>收货地址</li>
+						<li>注销 nl10lfdw3 </li>
+					</ul>
+					<span></span>
+				</a>
 				<a href="javascript:void(0)">购物车<i class="iconfont icon-gouwuche"></i></a>
 			</div>
 			
@@ -843,5 +856,16 @@
 		)
 	})
 
-	
+	$(".hea_R a:first-child").click(function(){
+		if($('.uls').css('display') == 'block'){
+			$('.uls').css('display','none');
+		}else{
+			$('.uls').css('display','block');
+		}
+		if($(this).find('span').css('display') == 'block'){
+			$(this).find('span').css('display','none');
+		}else{
+			$(this).find('span').css('display','block');
+		}
+	})
 </script>
